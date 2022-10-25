@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+}
+
+/* general */
+h1{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 4rem;
+    font-family: 'Island Moments', cursive;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
