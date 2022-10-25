@@ -3,7 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Rajdhani', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 /* general */
@@ -17,6 +17,8 @@ h1{
 .container{
     max-width: 900px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 .marker {
@@ -47,4 +49,40 @@ h1{
 .loginResult {
     margin-top: 25px;
     text-align: center;
+}
+
+
+/* game section */
+.game-section {
+    width: 300px;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 12px;
+    border: 3px solid #000000;
+    background-color: rgb(148, 126, 126);
+}
+
+.game-section h2{
+    margin: 8px 0; 
+}
+
+#numberBtn {
+    padding: .2rem .4rem;
+    border: 1.5px solid #000000;
+    border-radius: 12px;
+    background-color: #fbff14;
+}
+
+.extracted-numbers {
+    display: flex;
+    justify-content: space-around;
+}
+
+.result-box {
+    width: 100px;
+}
+
+.totResult {
+    margin-top: 20px;
+    color: #fbff14;
 }
